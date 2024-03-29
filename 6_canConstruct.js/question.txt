@@ -1,0 +1,18 @@
+
+Write a function `canConstruct(target, wordBank)` that accepts  a targetSum and an array of strings.
+
+The function should return a boolean indicating whether or not the `target` can be constructed by concatenating elements of the `wordBank` array.
+
+You may reuse elements of `wordBank` as many times as needed. 
+
+
+
+conConstruct(abcdef, [ab, abc, cd, def, abcd]) -> true
+
+                                                  Abc + def
+
+canCanstruct('skateboard', ['bo', 'rd', 'ate', 't', 'ska', 'sk', 'boar']) --> false
+
+                                                  ska + t + ?
+                                                  sk + ate + boar + ?
+                                                  sk + ate + bo + ?

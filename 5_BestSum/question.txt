@@ -1,0 +1,14 @@
+
+Write a function `bestSum(target, numbers)` that takes in a targetSum and an array of numbers as arguments.
+
+The function should return an array containing the shortest combination of numbers that add up to exactly the targetSum.
+
+If there is tie for the shortest combination, you may return any one of the shortest.
+
+homeSum(7, [5, 3, 4, 7]) -> [3, 4]
+                         -> [7] ans
+
+
+homeSum(8, [2, 3, 5]) -> [2, 2, 2, 2]    
+                      -> [2, 3, 3] 
+                      -> [3, 5]                           

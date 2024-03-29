@@ -1,0 +1,18 @@
+Say that you are a traveler on 2D grid, you begin in the top-left corner and your goal is to travel to the bottom-right corner. You may only move down or right. 
+
+In how many ways can you trade to the goal on a grid with dimensions m * n?
+
+Write a function `gridTraveler(m, n)` that calculates this.  
+
+
+gridTraveler(2 3) -> 3 (o/p)
+
+------------------------
+|   S  |       |       |
+------------------------
+|      |       |   E   |
+------------------------
+
+1. right, right, down
+2. right, down, right
+3. down, right, right
